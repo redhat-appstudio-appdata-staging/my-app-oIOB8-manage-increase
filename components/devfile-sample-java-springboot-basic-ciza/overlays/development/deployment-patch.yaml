@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-java-springboot-basic-ciza
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/mleonova-tenant/my-app/devfile-sample-java-springboot-basic-ciza@sha256:abdd04d0fd22ff02587f3cce1c205706c997769a4b63ec1dbdad7f55d7c1e8a6
+        name: my-java-springboot
+        resources: {}
+status: {}
