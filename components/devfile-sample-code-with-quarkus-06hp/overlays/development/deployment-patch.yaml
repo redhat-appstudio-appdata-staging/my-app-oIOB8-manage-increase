@@ -4,7 +4,6 @@ metadata:
   creationTimestamp: null
   name: devfile-sample-code-with-quarkus-06hp
 spec:
-  replicas: 1
   selector: {}
   strategy: {}
   template:
@@ -12,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/mleonova-tenant/my-app/devfile-sample-code-with-quarkus-06hp@sha256:ae5908ee027500764d1121b68d1aaf782879a6c62d9279ee88cc57f06372a26f
+      - image: quay.io/redhat-user-workloads-stage/mleonova-tenant/my-app/devfile-sample-code-with-quarkus-06hp@sha256:244e5ff31d23d7871b7809f9815bbf0f43cb1f6154f8456b60b06d3f458d084e
         name: my-java-quarkus
         resources: {}
 status: {}
