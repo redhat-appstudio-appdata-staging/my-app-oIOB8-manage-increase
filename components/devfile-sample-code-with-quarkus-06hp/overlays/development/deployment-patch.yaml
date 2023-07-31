@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/mleonova-tenant/my-app/devfile-sample-code-with-quarkus-06hp@sha256:ae5908ee027500764d1121b68d1aaf782879a6c62d9279ee88cc57f06372a26f
+      - image: quay.io/redhat-user-workloads-stage/mleonova-tenant/my-app/devfile-sample-code-with-quarkus-06hp@sha256:592554d0bfc886e9b996d380f2b1108babd584077f375c9f5e70cc6c5b149671
         name: my-java-quarkus
         resources: {}
 status: {}
