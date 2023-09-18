@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-java-springboot-basic-ciza
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/mleonova-tenant/my-app/devfile-sample-java-springboot-basic-ciza@sha256:6670abc34e14839df5cfbaec6abe2d78d94f200748fbfaec949d4724a686b24c
+      - image: quay.io/redhat-user-workloads-stage/mleonova-tenant/my-app/devfile-sample-java-springboot-basic-ciza@sha256:abdd04d0fd22ff02587f3cce1c205706c997769a4b63ec1dbdad7f55d7c1e8a6
         name: my-java-springboot
         ports:
         - containerPort: 8081
