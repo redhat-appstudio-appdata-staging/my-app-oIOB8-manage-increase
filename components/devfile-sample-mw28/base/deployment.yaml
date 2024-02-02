@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-mw28
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/mleonova-tenant/my-app/devfile-sample-mw28@sha256:4ce6f550fb2dc82766900c7c1130c25070cadcf0b40b969cbd14791943568bbd
+      - image: quay.io/redhat-user-workloads-stage/mleonova-tenant/my-app/devfile-sample-mw28@sha256:3c828da91b7162bf91e31cbc4ccd7e6703843688c46aa20690978db092737b07
         name: my-nodejs
         ports:
         - containerPort: 3001
